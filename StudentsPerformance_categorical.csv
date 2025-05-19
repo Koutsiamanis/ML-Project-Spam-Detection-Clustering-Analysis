@@ -1,0 +1,1001 @@
+gender,race/ethnicity,parental level of education,lunch,test preparation course,math_cat,reading_cat,writing_cat
+female,group B,bachelor's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,some college,standard,completed,μέτριο,υψηλό,υψηλό
+female,group B,master's degree,standard,none,υψηλό,υψηλό,υψηλό
+male,group A,associate's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,some college,standard,none,μέτριο,μέτριο,μέτριο
+female,group B,associate's degree,standard,none,μέτριο,υψηλό,μέτριο
+female,group B,some college,standard,completed,υψηλό,υψηλό,υψηλό
+male,group B,some college,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group D,high school,free/reduced,completed,μέτριο,μέτριο,μέτριο
+female,group B,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,associate's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group D,associate's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group B,high school,standard,none,μέτριο,υψηλό,μέτριο
+male,group A,some college,standard,completed,μέτριο,μέτριο,μέτριο
+female,group A,master's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,some high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group C,high school,standard,none,υψηλό,υψηλό,υψηλό
+female,group B,some high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,master's degree,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+female,group C,associate's degree,free/reduced,none,χαμηλό,χαμηλό,μέτριο
+male,group D,high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group B,some college,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group D,some college,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,some high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,bachelor's degree,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group A,master's degree,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group B,some college,standard,none,μέτριο,χαμηλό,χαμηλό
+female,group C,bachelor's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group C,high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group D,master's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group D,some college,standard,none,μέτριο,μέτριο,μέτριο
+female,group B,some college,standard,none,μέτριο,μέτριο,μέτριο
+female,group E,master's degree,free/reduced,none,χαμηλό,μέτριο,μέτριο
+male,group D,some college,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group E,some college,standard,none,υψηλό,υψηλό,υψηλό
+male,group E,associate's degree,standard,completed,υψηλό,υψηλό,μέτριο
+female,group D,associate's degree,standard,none,μέτριο,υψηλό,υψηλό
+female,group D,some high school,free/reduced,none,χαμηλό,μέτριο,χαμηλό
+female,group D,associate's degree,free/reduced,completed,μέτριο,υψηλό,υψηλό
+male,group B,associate's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,associate's degree,free/reduced,none,χαμηλό,μέτριο,χαμηλό
+female,group C,associate's degree,standard,none,χαμηλό,μέτριο,μέτριο
+female,group B,associate's degree,standard,none,χαμηλό,χαμηλό,μέτριο
+male,group B,some college,free/reduced,completed,χαμηλό,μέτριο,μέτριο
+female,group E,associate's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group B,associate's degree,standard,none,μέτριο,χαμηλό,χαμηλό
+female,group A,associate's degree,standard,completed,χαμηλό,μέτριο,μέτριο
+female,group C,high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group D,associate's degree,free/reduced,completed,χαμηλό,μέτριο,μέτριο
+male,group C,high school,standard,completed,υψηλό,υψηλό,υψηλό
+male,group E,some college,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group E,associate's degree,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group C,some college,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group D,high school,standard,none,υψηλό,μέτριο,μέτριο
+female,group C,some high school,free/reduced,completed,μέτριο,υψηλό,υψηλό
+female,group C,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group E,associate's degree,standard,completed,υψηλό,υψηλό,υψηλό
+male,group D,associate's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group D,some college,standard,completed,χαμηλό,χαμηλό,χαμηλό
+female,group C,some high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group E,bachelor's degree,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group A,some high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group A,associate's degree,free/reduced,none,μέτριο,μέτριο,χαμηλό
+female,group C,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group D,some high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group B,some high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,some high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,some college,standard,none,χαμηλό,μέτριο,μέτριο
+male,group B,associate's degree,free/reduced,none,μέτριο,χαμηλό,χαμηλό
+female,group C,associate's degree,standard,none,χαμηλό,μέτριο,χαμηλό
+female,group D,some college,free/reduced,completed,χαμηλό,μέτριο,μέτριο
+male,group D,some college,standard,completed,μέτριο,χαμηλό,μέτριο
+female,group A,associate's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,some high school,free/reduced,none,μέτριο,χαμηλό,χαμηλό
+male,group C,some high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group B,associate's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group E,some high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group A,bachelor's degree,standard,completed,μέτριο,μέτριο,υψηλό
+female,group D,some high school,standard,completed,μέτριο,μέτριο,μέτριο
+female,group E,master's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group B,associate's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group B,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group A,some college,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+male,group E,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,some college,standard,none,μέτριο,μέτριο,υψηλό
+female,group C,some college,free/reduced,none,μέτριο,υψηλό,υψηλό
+female,group D,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group A,some college,standard,none,χαμηλό,μέτριο,μέτριο
+female,group D,some high school,standard,none,μέτριο,υψηλό,υψηλό
+female,group C,bachelor's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group C,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group C,associate's degree,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+female,group B,some college,standard,none,μέτριο,υψηλό,υψηλό
+male,group C,associate's degree,free/reduced,completed,μέτριο,υψηλό,υψηλό
+male,group B,some high school,standard,completed,μέτριο,μέτριο,μέτριο
+female,group E,some college,standard,completed,μέτριο,μέτριο,μέτριο
+female,group D,some college,free/reduced,none,χαμηλό,μέτριο,μέτριο
+female,group D,bachelor's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group B,some college,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,bachelor's degree,standard,completed,μέτριο,μέτριο,μέτριο
+female,group D,associate's degree,standard,none,υψηλό,υψηλό,υψηλό
+male,group B,high school,standard,completed,χαμηλό,χαμηλό,χαμηλό
+male,group C,some college,standard,completed,υψηλό,υψηλό,υψηλό
+female,group C,some college,standard,none,χαμηλό,μέτριο,μέτριο
+female,group D,master's degree,standard,none,υψηλό,υψηλό,υψηλό
+male,group E,associate's degree,standard,completed,μέτριο,μέτριο,μέτριο
+female,group B,associate's degree,free/reduced,none,χαμηλό,μέτριο,μέτριο
+female,group B,some high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group D,associate's degree,free/reduced,completed,μέτριο,υψηλό,υψηλό
+male,group C,high school,standard,none,μέτριο,χαμηλό,χαμηλό
+male,group A,associate's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group D,some college,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group E,bachelor's degree,standard,completed,υψηλό,υψηλό,υψηλό
+male,group C,high school,standard,none,υψηλό,μέτριο,μέτριο
+female,group B,bachelor's degree,free/reduced,none,μέτριο,υψηλό,υψηλό
+female,group D,bachelor's degree,standard,none,μέτριο,υψηλό,μέτριο
+female,group D,some high school,standard,none,χαμηλό,μέτριο,μέτριο
+female,group C,some college,standard,none,χαμηλό,μέτριο,μέτριο
+female,group C,bachelor's degree,standard,completed,μέτριο,υψηλό,υψηλό
+male,group B,associate's degree,standard,completed,υψηλό,υψηλό,υψηλό
+female,group C,some college,standard,completed,υψηλό,υψηλό,υψηλό
+male,group D,high school,free/reduced,none,μέτριο,χαμηλό,χαμηλό
+male,group E,some college,standard,none,υψηλό,μέτριο,μέτριο
+female,group B,high school,standard,none,υψηλό,υψηλό,υψηλό
+male,group B,some high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,some college,standard,completed,μέτριο,μέτριο,μέτριο
+male,group D,master's degree,standard,none,υψηλό,υψηλό,μέτριο
+female,group A,bachelor's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group D,master's degree,standard,none,υψηλό,υψηλό,υψηλό
+male,group C,some high school,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+male,group E,some college,free/reduced,completed,υψηλό,μέτριο,μέτριο
+female,group C,some college,standard,completed,μέτριο,υψηλό,υψηλό
+male,group D,bachelor's degree,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group C,bachelor's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group B,some high school,standard,completed,χαμηλό,χαμηλό,χαμηλό
+male,group E,high school,standard,none,μέτριο,χαμηλό,χαμηλό
+female,group C,associate's degree,standard,none,χαμηλό,μέτριο,μέτριο
+male,group D,some college,standard,completed,μέτριο,μέτριο,μέτριο
+female,group D,some high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,some college,free/reduced,none,χαμηλό,μέτριο,μέτριο
+female,group E,some college,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+male,group A,high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group D,some college,standard,none,υψηλό,μέτριο,μέτριο
+female,group C,some college,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group B,some high school,standard,none,υψηλό,υψηλό,μέτριο
+male,group C,associate's degree,free/reduced,none,μέτριο,μέτριο,μέτριο
+female,group D,bachelor's degree,standard,completed,μέτριο,μέτριο,υψηλό
+male,group E,associate's degree,free/reduced,completed,υψηλό,υψηλό,υψηλό
+male,group A,some high school,standard,completed,μέτριο,μέτριο,μέτριο
+male,group A,bachelor's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group B,associate's degree,standard,completed,χαμηλό,μέτριο,μέτριο
+male,group D,bachelor's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group D,some high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,some college,standard,completed,μέτριο,υψηλό,υψηλό
+female,group E,high school,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group B,some college,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group B,associate's degree,standard,completed,μέτριο,υψηλό,υψηλό
+male,group D,associate's degree,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group B,associate's degree,free/reduced,completed,υψηλό,μέτριο,μέτριο
+female,group E,some college,free/reduced,completed,μέτριο,υψηλό,υψηλό
+male,group B,master's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group E,master's degree,standard,none,υψηλό,υψηλό,υψηλό
+female,group C,bachelor's degree,standard,completed,υψηλό,υψηλό,υψηλό
+male,group C,high school,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+female,group B,master's degree,free/reduced,completed,χαμηλό,μέτριο,μέτριο
+female,group B,high school,standard,completed,μέτριο,υψηλό,μέτριο
+female,group C,some college,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group A,high school,standard,completed,μέτριο,μέτριο,μέτριο
+male,group E,some high school,standard,none,υψηλό,υψηλό,μέτριο
+female,group D,some college,standard,none,μέτριο,υψηλό,υψηλό
+female,group C,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,bachelor's degree,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+female,group C,master's degree,standard,completed,υψηλό,υψηλό,υψηλό
+female,group B,high school,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+female,group C,associate's degree,standard,completed,μέτριο,μέτριο,μέτριο
+female,group B,master's degree,free/reduced,completed,χαμηλό,μέτριο,μέτριο
+female,group D,some high school,standard,completed,υψηλό,υψηλό,υψηλό
+male,group C,master's degree,free/reduced,completed,μέτριο,μέτριο,μέτριο
+female,group C,some college,free/reduced,none,χαμηλό,μέτριο,μέτριο
+female,group E,high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group D,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group C,some high school,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+male,group C,associate's degree,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group E,high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,some high school,standard,completed,μέτριο,μέτριο,μέτριο
+male,group B,some high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,bachelor's degree,standard,none,μέτριο,υψηλό,υψηλό
+female,group E,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,some college,standard,completed,μέτριο,υψηλό,μέτριο
+female,group B,some high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,some college,standard,completed,μέτριο,μέτριο,μέτριο
+female,group C,master's degree,standard,completed,μέτριο,υψηλό,υψηλό
+male,group D,associate's degree,standard,none,μέτριο,χαμηλό,χαμηλό
+male,group C,some high school,free/reduced,completed,χαμηλό,μέτριο,μέτριο
+male,group E,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group B,some college,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group B,bachelor's degree,free/reduced,none,μέτριο,μέτριο,μέτριο
+female,group C,associate's degree,standard,completed,μέτριο,υψηλό,υψηλό
+female,group D,some college,free/reduced,none,μέτριο,υψηλό,μέτριο
+male,group C,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group B,associate's degree,standard,none,χαμηλό,μέτριο,μέτριο
+male,group C,some college,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group D,some high school,standard,completed,μέτριο,μέτριο,μέτριο
+male,group E,bachelor's degree,standard,none,υψηλό,μέτριο,μέτριο
+male,group E,high school,standard,completed,υψηλό,μέτριο,μέτριο
+female,group B,some college,free/reduced,none,μέτριο,υψηλό,μέτριο
+female,group B,some college,free/reduced,none,χαμηλό,μέτριο,μέτριο
+male,group D,some high school,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group C,some college,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,high school,free/reduced,none,χαμηλό,μέτριο,χαμηλό
+male,group C,associate's degree,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+male,group E,high school,standard,completed,υψηλό,υψηλό,υψηλό
+male,group B,some high school,standard,completed,υψηλό,υψηλό,μέτριο
+female,group E,associate's degree,free/reduced,completed,υψηλό,υψηλό,υψηλό
+female,group C,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group B,high school,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group B,some high school,standard,completed,μέτριο,χαμηλό,χαμηλό
+female,group D,high school,standard,completed,χαμηλό,μέτριο,μέτριο
+male,group B,associate's degree,standard,none,υψηλό,υψηλό,μέτριο
+female,group C,some high school,free/reduced,none,χαμηλό,μέτριο,μέτριο
+male,group D,some high school,standard,none,υψηλό,μέτριο,μέτριο
+female,group B,associate's degree,standard,completed,χαμηλό,μέτριο,μέτριο
+female,group E,master's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,some college,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group A,some high school,free/reduced,none,μέτριο,μέτριο,μέτριο
+female,group C,some college,standard,completed,υψηλό,υψηλό,υψηλό
+male,group D,some college,standard,none,μέτριο,μέτριο,μέτριο
+male,group C,associate's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group B,bachelor's degree,standard,none,μέτριο,υψηλό,υψηλό
+male,group E,some high school,standard,none,υψηλό,υψηλό,μέτριο
+male,group C,bachelor's degree,standard,completed,υψηλό,υψηλό,υψηλό
+male,group D,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,bachelor's degree,free/reduced,none,μέτριο,μέτριο,μέτριο
+female,group D,some high school,standard,completed,μέτριο,χαμηλό,μέτριο
+male,group B,some college,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,associate's degree,standard,none,υψηλό,μέτριο,μέτριο
+male,group D,high school,free/reduced,completed,μέτριο,μέτριο,μέτριο
+female,group E,bachelor's degree,standard,none,μέτριο,υψηλό,υψηλό
+female,group D,high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group E,some college,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group D,some high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group C,associate's degree,standard,none,υψηλό,μέτριο,μέτριο
+male,group E,associate's degree,standard,none,υψηλό,μέτριο,μέτριο
+female,group B,high school,standard,completed,χαμηλό,μέτριο,μέτριο
+female,group B,high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group C,high school,standard,none,μέτριο,χαμηλό,χαμηλό
+male,group A,some high school,standard,completed,χαμηλό,χαμηλό,χαμηλό
+female,group D,some college,free/reduced,none,μέτριο,υψηλό,υψηλό
+female,group B,some high school,standard,completed,χαμηλό,μέτριο,μέτριο
+male,group D,master's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group E,some college,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,associate's degree,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group C,associate's degree,standard,completed,μέτριο,μέτριο,μέτριο
+female,group B,some college,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,master's degree,free/reduced,completed,μέτριο,υψηλό,υψηλό
+female,group C,some high school,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group C,some college,standard,completed,μέτριο,μέτριο,μέτριο
+female,group C,some high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group E,high school,standard,none,υψηλό,υψηλό,υψηλό
+male,group D,high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,some high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,bachelor's degree,standard,none,μέτριο,μέτριο,υψηλό
+female,group D,high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group D,associate's degree,standard,completed,υψηλό,υψηλό,υψηλό
+female,group E,some college,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group C,bachelor's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group C,some college,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group D,associate's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group D,some college,standard,none,μέτριο,μέτριο,μέτριο
+male,group B,some college,standard,completed,υψηλό,υψηλό,μέτριο
+male,group C,bachelor's degree,standard,none,υψηλό,μέτριο,μέτριο
+female,group C,some high school,standard,completed,υψηλό,υψηλό,υψηλό
+female,group E,high school,standard,completed,χαμηλό,μέτριο,μέτριο
+female,group C,some high school,free/reduced,none,μέτριο,υψηλό,μέτριο
+male,group B,bachelor's degree,free/reduced,none,μέτριο,χαμηλό,χαμηλό
+male,group D,high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group D,high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group D,bachelor's degree,free/reduced,none,μέτριο,μέτριο,υψηλό
+female,group D,some college,free/reduced,completed,μέτριο,μέτριο,μέτριο
+female,group B,some high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group B,associate's degree,standard,completed,υψηλό,υψηλό,υψηλό
+male,group E,associate's degree,standard,completed,υψηλό,υψηλό,υψηλό
+female,group B,some high school,standard,none,μέτριο,υψηλό,υψηλό
+male,group B,bachelor's degree,free/reduced,none,υψηλό,μέτριο,μέτριο
+male,group E,some high school,standard,completed,μέτριο,μέτριο,μέτριο
+male,group C,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,some high school,standard,none,υψηλό,μέτριο,μέτριο
+male,group C,some high school,standard,completed,μέτριο,χαμηλό,χαμηλό
+female,group E,bachelor's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,high school,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group B,associate's degree,free/reduced,none,μέτριο,μέτριο,χαμηλό
+male,group A,some high school,standard,completed,χαμηλό,χαμηλό,χαμηλό
+male,group E,associate's degree,standard,completed,μέτριο,μέτριο,μέτριο
+male,group C,high school,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+male,group D,associate's degree,free/reduced,none,υψηλό,υψηλό,μέτριο
+male,group A,some college,free/reduced,completed,υψηλό,μέτριο,υψηλό
+male,group D,some high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,associate's degree,standard,completed,μέτριο,υψηλό,υψηλό
+male,group B,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,associate's degree,standard,completed,μέτριο,μέτριο,υψηλό
+male,group A,some college,standard,none,μέτριο,μέτριο,μέτριο
+male,group E,some college,standard,completed,υψηλό,υψηλό,υψηλό
+male,group C,some high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group B,associate's degree,free/reduced,none,χαμηλό,μέτριο,μέτριο
+female,group D,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group B,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group B,bachelor's degree,standard,none,μέτριο,χαμηλό,χαμηλό
+male,group D,bachelor's degree,standard,completed,μέτριο,μέτριο,μέτριο
+female,group C,associate's degree,free/reduced,completed,μέτριο,μέτριο,μέτριο
+female,group C,bachelor's degree,standard,completed,χαμηλό,μέτριο,μέτριο
+male,group C,high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group D,master's degree,standard,completed,μέτριο,υψηλό,υψηλό
+male,group C,associate's degree,standard,none,υψηλό,μέτριο,μέτριο
+male,group B,bachelor's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group D,associate's degree,free/reduced,none,χαμηλό,μέτριο,μέτριο
+female,group C,high school,free/reduced,completed,μέτριο,μέτριο,υψηλό
+female,group E,high school,standard,none,μέτριο,υψηλό,μέτριο
+female,group C,some college,standard,none,μέτριο,υψηλό,μέτριο
+female,group C,some high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,some college,standard,none,υψηλό,υψηλό,υψηλό
+male,group C,some college,standard,none,μέτριο,μέτριο,μέτριο
+male,group A,some college,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,associate's degree,standard,completed,υψηλό,μέτριο,μέτριο
+female,group B,some high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,high school,standard,none,μέτριο,χαμηλό,μέτριο
+male,group C,associate's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group E,associate's degree,standard,completed,μέτριο,χαμηλό,χαμηλό
+male,group B,associate's degree,standard,none,υψηλό,μέτριο,υψηλό
+female,group C,bachelor's degree,standard,none,υψηλό,υψηλό,υψηλό
+female,group B,some college,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group D,some high school,standard,completed,μέτριο,μέτριο,μέτριο
+male,group C,associate's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group B,some high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group D,some high school,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+male,group C,high school,free/reduced,none,χαμηλό,μέτριο,χαμηλό
+female,group C,high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group B,high school,standard,completed,μέτριο,μέτριο,μέτριο
+male,group D,associate's degree,standard,completed,μέτριο,μέτριο,μέτριο
+male,group D,some college,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group B,some college,standard,none,μέτριο,μέτριο,χαμηλό
+female,group C,bachelor's degree,standard,completed,μέτριο,υψηλό,υψηλό
+male,group D,high school,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group E,associate's degree,standard,none,υψηλό,μέτριο,μέτριο
+female,group B,bachelor's degree,standard,none,χαμηλό,μέτριο,μέτριο
+male,group E,some college,standard,none,μέτριο,χαμηλό,χαμηλό
+female,group C,some college,standard,completed,μέτριο,μέτριο,μέτριο
+female,group C,associate's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,some college,standard,none,χαμηλό,μέτριο,μέτριο
+female,group B,bachelor's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group A,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,some college,free/reduced,completed,χαμηλό,μέτριο,μέτριο
+male,group D,some college,free/reduced,none,χαμηλό,μέτριο,μέτριο
+female,group D,some college,standard,none,μέτριο,υψηλό,υψηλό
+female,group B,high school,standard,none,χαμηλό,μέτριο,χαμηλό
+male,group B,some high school,standard,completed,υψηλό,υψηλό,μέτριο
+female,group C,some college,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group D,some high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,some college,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group A,bachelor's degree,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+male,group C,high school,standard,completed,μέτριο,χαμηλό,χαμηλό
+male,group C,bachelor's degree,free/reduced,none,μέτριο,μέτριο,μέτριο
+female,group A,some high school,free/reduced,none,χαμηλό,μέτριο,χαμηλό
+female,group D,some high school,standard,none,μέτριο,υψηλό,υψηλό
+male,group E,some college,standard,none,υψηλό,μέτριο,μέτριο
+female,group C,some college,free/reduced,completed,χαμηλό,μέτριο,μέτριο
+male,group D,some high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group D,some college,standard,completed,υψηλό,υψηλό,υψηλό
+female,group D,bachelor's degree,standard,none,χαμηλό,μέτριο,μέτριο
+male,group E,associate's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group D,some high school,standard,none,μέτριο,υψηλό,υψηλό
+female,group D,master's degree,free/reduced,completed,υψηλό,υψηλό,υψηλό
+female,group A,some high school,standard,none,μέτριο,υψηλό,μέτριο
+male,group A,bachelor's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group B,associate's degree,standard,none,μέτριο,υψηλό,υψηλό
+male,group C,associate's degree,standard,completed,υψηλό,υψηλό,υψηλό
+male,group C,master's degree,free/reduced,none,μέτριο,υψηλό,μέτριο
+female,group E,some high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group A,some high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group E,some college,standard,none,μέτριο,μέτριο,μέτριο
+female,group E,bachelor's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,associate's degree,free/reduced,none,χαμηλό,μέτριο,μέτριο
+female,group D,high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,master's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group E,some high school,free/reduced,completed,μέτριο,μέτριο,χαμηλό
+female,group D,some college,standard,none,μέτριο,μέτριο,μέτριο
+male,group E,some college,standard,none,μέτριο,μέτριο,μέτριο
+male,group C,associate's degree,standard,completed,χαμηλό,χαμηλό,χαμηλό
+female,group C,some high school,standard,completed,μέτριο,μέτριο,μέτριο
+male,group A,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group B,high school,free/reduced,none,χαμηλό,μέτριο,μέτριο
+female,group C,associate's degree,standard,none,υψηλό,υψηλό,υψηλό
+male,group B,some high school,standard,none,μέτριο,μέτριο,χαμηλό
+male,group D,some high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,some high school,standard,completed,χαμηλό,χαμηλό,μέτριο
+male,group A,some college,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group A,some college,free/reduced,none,χαμηλό,μέτριο,χαμηλό
+female,group D,high school,standard,completed,υψηλό,υψηλό,υψηλό
+female,group C,high school,standard,none,χαμηλό,χαμηλό,μέτριο
+female,group C,some high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group B,associate's degree,standard,completed,μέτριο,μέτριο,μέτριο
+female,group B,associate's degree,standard,none,υψηλό,μέτριο,μέτριο
+female,group D,high school,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+male,group D,associate's degree,standard,completed,υψηλό,υψηλό,υψηλό
+female,group D,master's degree,standard,completed,μέτριο,μέτριο,μέτριο
+male,group E,some college,standard,completed,υψηλό,υψηλό,μέτριο
+male,group D,associate's degree,standard,none,μέτριο,μέτριο,χαμηλό
+male,group B,some high school,standard,completed,μέτριο,μέτριο,μέτριο
+female,group C,bachelor's degree,free/reduced,completed,χαμηλό,μέτριο,μέτριο
+male,group E,high school,standard,none,υψηλό,μέτριο,μέτριο
+male,group C,bachelor's degree,standard,completed,μέτριο,μέτριο,μέτριο
+male,group C,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,some college,standard,none,μέτριο,χαμηλό,μέτριο
+male,group E,high school,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+female,group C,associate's degree,free/reduced,completed,υψηλό,υψηλό,υψηλό
+female,group D,high school,standard,completed,χαμηλό,χαμηλό,μέτριο
+female,group D,master's degree,free/reduced,completed,χαμηλό,χαμηλό,μέτριο
+female,group A,some high school,standard,completed,χαμηλό,υψηλό,μέτριο
+male,group B,some college,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,some college,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group C,bachelor's degree,standard,none,υψηλό,υψηλό,υψηλό
+male,group C,some high school,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group A,some high school,free/reduced,none,μέτριο,χαμηλό,χαμηλό
+male,group C,some high school,free/reduced,none,μέτριο,μέτριο,χαμηλό
+male,group C,associate's degree,free/reduced,none,μέτριο,μέτριο,χαμηλό
+female,group C,high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group C,high school,standard,none,μέτριο,χαμηλό,χαμηλό
+female,group A,some high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,some high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group C,some college,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+male,group D,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,associate's degree,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group C,high school,standard,none,μέτριο,χαμηλό,χαμηλό
+male,group D,some high school,standard,completed,υψηλό,υψηλό,υψηλό
+female,group C,some college,standard,completed,μέτριο,υψηλό,μέτριο
+female,group D,high school,standard,none,μέτριο,υψηλό,μέτριο
+female,group A,some high school,free/reduced,none,χαμηλό,μέτριο,μέτριο
+female,group B,associate's degree,standard,none,μέτριο,υψηλό,μέτριο
+male,group A,some high school,free/reduced,none,μέτριο,υψηλό,μέτριο
+female,group C,some high school,standard,completed,μέτριο,μέτριο,μέτριο
+male,group D,some college,free/reduced,none,μέτριο,μέτριο,χαμηλό
+male,group C,high school,standard,completed,υψηλό,υψηλό,μέτριο
+male,group B,high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group B,associate's degree,standard,none,υψηλό,μέτριο,μέτριο
+female,group C,some college,free/reduced,completed,μέτριο,υψηλό,υψηλό
+female,group E,some college,standard,none,υψηλό,υψηλό,υψηλό
+female,group C,associate's degree,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group C,some college,free/reduced,none,μέτριο,χαμηλό,χαμηλό
+female,group C,associate's degree,free/reduced,none,χαμηλό,μέτριο,μέτριο
+male,group C,bachelor's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group D,bachelor's degree,standard,none,μέτριο,υψηλό,υψηλό
+male,group D,associate's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group E,bachelor's degree,standard,none,υψηλό,υψηλό,υψηλό
+male,group B,high school,standard,completed,μέτριο,μέτριο,μέτριο
+male,group C,bachelor's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group B,some college,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group E,some college,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,some college,free/reduced,none,μέτριο,υψηλό,υψηλό
+male,group A,bachelor's degree,standard,completed,μέτριο,χαμηλό,μέτριο
+female,group C,some college,standard,none,υψηλό,υψηλό,υψηλό
+female,group D,associate's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group A,high school,free/reduced,completed,μέτριο,μέτριο,μέτριο
+female,group A,high school,free/reduced,completed,μέτριο,υψηλό,υψηλό
+male,group C,some college,standard,none,υψηλό,μέτριο,μέτριο
+female,group C,associate's degree,standard,completed,υψηλό,υψηλό,υψηλό
+female,group C,high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,associate's degree,standard,completed,μέτριο,υψηλό,υψηλό
+female,group D,some high school,standard,none,χαμηλό,μέτριο,μέτριο
+female,group B,associate's degree,standard,completed,υψηλό,υψηλό,υψηλό
+female,group D,bachelor's degree,standard,completed,μέτριο,μέτριο,υψηλό
+male,group E,bachelor's degree,standard,completed,μέτριο,μέτριο,μέτριο
+male,group D,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group D,master's degree,standard,none,χαμηλό,μέτριο,μέτριο
+male,group E,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group B,high school,standard,completed,μέτριο,μέτριο,μέτριο
+female,group D,associate's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,some college,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group A,high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group B,associate's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,some college,free/reduced,none,μέτριο,χαμηλό,χαμηλό
+female,group C,associate's degree,free/reduced,none,χαμηλό,μέτριο,μέτριο
+male,group B,some high school,standard,completed,μέτριο,χαμηλό,χαμηλό
+male,group A,associate's degree,free/reduced,completed,μέτριο,υψηλό,υψηλό
+female,group A,associate's degree,free/reduced,none,μέτριο,υψηλό,μέτριο
+female,group C,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,some college,standard,none,υψηλό,υψηλό,υψηλό
+female,group C,bachelor's degree,standard,none,υψηλό,υψηλό,υψηλό
+female,group B,high school,standard,none,χαμηλό,μέτριο,μέτριο
+male,group D,high school,standard,completed,μέτριο,μέτριο,μέτριο
+female,group C,some college,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group D,some college,free/reduced,completed,χαμηλό,μέτριο,μέτριο
+female,group B,some high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group E,some college,standard,none,μέτριο,μέτριο,μέτριο
+female,group D,master's degree,standard,none,μέτριο,μέτριο,υψηλό
+female,group B,associate's degree,standard,completed,υψηλό,υψηλό,υψηλό
+male,group C,some college,free/reduced,none,μέτριο,μέτριο,χαμηλό
+female,group E,associate's degree,standard,completed,υψηλό,υψηλό,υψηλό
+female,group D,master's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group B,some high school,standard,none,υψηλό,υψηλό,μέτριο
+male,group A,high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group B,bachelor's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,master's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,bachelor's degree,standard,none,υψηλό,υψηλό,υψηλό
+male,group D,some college,standard,none,μέτριο,μέτριο,μέτριο
+male,group A,some high school,standard,none,μέτριο,χαμηλό,χαμηλό
+male,group D,some high school,free/reduced,none,μέτριο,χαμηλό,χαμηλό
+female,group B,some high school,standard,completed,χαμηλό,μέτριο,μέτριο
+female,group B,master's degree,free/reduced,completed,μέτριο,υψηλό,υψηλό
+female,group C,some high school,standard,completed,μέτριο,υψηλό,υψηλό
+female,group D,some college,standard,none,μέτριο,υψηλό,υψηλό
+female,group E,some college,standard,completed,μέτριο,μέτριο,μέτριο
+female,group D,some high school,standard,completed,μέτριο,μέτριο,μέτριο
+female,group B,high school,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group D,some college,standard,none,μέτριο,χαμηλό,χαμηλό
+female,group C,associate's degree,standard,none,υψηλό,υψηλό,υψηλό
+male,group D,bachelor's degree,standard,none,μέτριο,χαμηλό,χαμηλό
+male,group C,master's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,high school,standard,completed,χαμηλό,χαμηλό,χαμηλό
+male,group E,some college,standard,none,μέτριο,χαμηλό,χαμηλό
+male,group C,some high school,free/reduced,completed,χαμηλό,μέτριο,χαμηλό
+female,group C,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group D,bachelor's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,associate's degree,standard,completed,μέτριο,μέτριο,μέτριο
+female,group C,some high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group E,associate's degree,standard,completed,μέτριο,μέτριο,χαμηλό
+female,group E,associate's degree,standard,completed,μέτριο,υψηλό,υψηλό
+male,group B,high school,standard,completed,μέτριο,μέτριο,μέτριο
+female,group C,bachelor's degree,free/reduced,completed,μέτριο,υψηλό,υψηλό
+male,group C,associate's degree,standard,completed,χαμηλό,χαμηλό,χαμηλό
+female,group D,high school,standard,none,χαμηλό,μέτριο,μέτριο
+male,group E,bachelor's degree,standard,completed,υψηλό,μέτριο,μέτριο
+male,group A,associate's degree,standard,completed,υψηλό,υψηλό,υψηλό
+male,group C,high school,standard,completed,μέτριο,μέτριο,μέτριο
+male,group D,associate's degree,free/reduced,completed,μέτριο,υψηλό,μέτριο
+female,group C,associate's degree,standard,none,υψηλό,μέτριο,μέτριο
+female,group D,associate's degree,standard,none,υψηλό,υψηλό,υψηλό
+female,group D,master's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group E,some high school,free/reduced,completed,μέτριο,υψηλό,μέτριο
+female,group A,some high school,standard,completed,υψηλό,υψηλό,υψηλό
+male,group C,high school,standard,completed,μέτριο,μέτριο,μέτριο
+female,group C,high school,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group C,master's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group C,some high school,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group B,bachelor's degree,free/reduced,completed,υψηλό,υψηλό,υψηλό
+female,group B,associate's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group D,some college,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group E,associate's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,some college,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,associate's degree,standard,completed,χαμηλό,μέτριο,μέτριο
+male,group C,master's degree,free/reduced,none,μέτριο,μέτριο,μέτριο
+female,group B,associate's degree,free/reduced,none,χαμηλό,μέτριο,μέτριο
+male,group D,some high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group D,some college,standard,completed,μέτριο,μέτριο,μέτριο
+female,group C,some college,standard,none,μέτριο,μέτριο,μέτριο
+male,group C,bachelor's degree,standard,completed,υψηλό,υψηλό,υψηλό
+female,group D,some college,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group B,bachelor's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group B,associate's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group E,bachelor's degree,free/reduced,completed,υψηλό,υψηλό,υψηλό
+female,group D,master's degree,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group B,high school,free/reduced,none,μέτριο,χαμηλό,χαμηλό
+male,group D,bachelor's degree,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group B,some college,standard,completed,μέτριο,μέτριο,μέτριο
+male,group A,bachelor's degree,standard,none,υψηλό,υψηλό,υψηλό
+female,group C,some college,standard,none,χαμηλό,μέτριο,χαμηλό
+female,group C,high school,free/reduced,completed,χαμηλό,μέτριο,μέτριο
+female,group E,high school,standard,none,μέτριο,υψηλό,μέτριο
+male,group A,associate's degree,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+male,group A,some college,standard,completed,μέτριο,χαμηλό,χαμηλό
+female,group B,high school,standard,none,υψηλό,υψηλό,υψηλό
+female,group B,some college,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+female,group D,master's degree,standard,none,χαμηλό,μέτριο,μέτριο
+female,group D,some high school,standard,none,υψηλό,υψηλό,υψηλό
+female,group E,some high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group D,bachelor's degree,free/reduced,none,μέτριο,μέτριο,μέτριο
+female,group D,associate's degree,standard,completed,μέτριο,μέτριο,μέτριο
+female,group D,some college,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group A,high school,standard,none,χαμηλό,μέτριο,μέτριο
+female,group C,bachelor's degree,free/reduced,none,χαμηλό,μέτριο,μέτριο
+female,group C,some college,standard,none,χαμηλό,μέτριο,μέτριο
+female,group A,some high school,standard,none,χαμηλό,μέτριο,μέτριο
+male,group C,some college,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group A,some high school,standard,none,μέτριο,μέτριο,χαμηλό
+male,group E,bachelor's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group E,high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,bachelor's degree,standard,completed,υψηλό,υψηλό,υψηλό
+female,group C,bachelor's degree,standard,completed,χαμηλό,μέτριο,μέτριο
+male,group B,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group A,some high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group D,high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group D,some high school,standard,none,μέτριο,υψηλό,υψηλό
+female,group D,master's degree,standard,none,χαμηλό,χαμηλό,μέτριο
+female,group C,high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group E,some college,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group D,master's degree,free/reduced,completed,υψηλό,υψηλό,υψηλό
+male,group C,some high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,associate's degree,standard,none,υψηλό,υψηλό,υψηλό
+female,group C,master's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group E,some college,standard,none,μέτριο,μέτριο,μέτριο
+female,group B,associate's degree,standard,none,χαμηλό,μέτριο,μέτριο
+male,group D,some college,free/reduced,completed,μέτριο,χαμηλό,μέτριο
+female,group C,some college,standard,none,χαμηλό,χαμηλό,μέτριο
+male,group C,bachelor's degree,standard,completed,υψηλό,υψηλό,υψηλό
+female,group C,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group A,associate's degree,standard,none,υψηλό,υψηλό,υψηλό
+female,group C,high school,standard,none,χαμηλό,μέτριο,μέτριο
+female,group E,bachelor's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group D,bachelor's degree,standard,none,υψηλό,μέτριο,υψηλό
+male,group D,master's degree,standard,none,υψηλό,υψηλό,υψηλό
+male,group C,associate's degree,free/reduced,completed,μέτριο,μέτριο,μέτριο
+female,group C,high school,free/reduced,none,χαμηλό,μέτριο,χαμηλό
+male,group B,bachelor's degree,free/reduced,none,μέτριο,μέτριο,χαμηλό
+male,group C,high school,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+male,group A,some college,standard,completed,υψηλό,υψηλό,υψηλό
+female,group E,bachelor's degree,free/reduced,none,μέτριο,χαμηλό,μέτριο
+male,group D,some college,standard,completed,υψηλό,υψηλό,υψηλό
+male,group B,associate's degree,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group D,associate's degree,standard,none,μέτριο,χαμηλό,χαμηλό
+male,group D,some college,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,some high school,standard,completed,χαμηλό,χαμηλό,χαμηλό
+male,group D,some college,standard,none,μέτριο,μέτριο,μέτριο
+male,group B,high school,standard,none,μέτριο,χαμηλό,μέτριο
+female,group B,bachelor's degree,standard,completed,μέτριο,μέτριο,υψηλό
+female,group C,high school,standard,none,μέτριο,υψηλό,υψηλό
+male,group D,some high school,standard,none,υψηλό,υψηλό,μέτριο
+male,group A,high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group B,high school,free/reduced,completed,μέτριο,μέτριο,υψηλό
+female,group D,some high school,standard,completed,μέτριο,υψηλό,υψηλό
+male,group E,some college,standard,none,υψηλό,μέτριο,μέτριο
+female,group D,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group D,associate's degree,free/reduced,completed,μέτριο,υψηλό,υψηλό
+female,group B,some high school,free/reduced,none,μέτριο,υψηλό,μέτριο
+female,group E,high school,standard,completed,μέτριο,μέτριο,μέτριο
+male,group B,high school,standard,none,μέτριο,μέτριο,χαμηλό
+female,group B,bachelor's degree,standard,completed,μέτριο,υψηλό,υψηλό
+female,group D,associate's degree,standard,none,χαμηλό,μέτριο,μέτριο
+female,group E,high school,free/reduced,none,μέτριο,μέτριο,μέτριο
+female,group B,high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group D,some college,standard,completed,μέτριο,μέτριο,υψηλό
+male,group C,some high school,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+female,group A,high school,standard,completed,μέτριο,μέτριο,μέτριο
+female,group D,some college,standard,completed,υψηλό,υψηλό,υψηλό
+female,group A,associate's degree,standard,completed,μέτριο,μέτριο,μέτριο
+female,group B,some high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group B,some college,standard,none,μέτριο,μέτριο,μέτριο
+male,group C,associate's degree,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group D,some high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group D,associate's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group D,associate's degree,standard,none,υψηλό,υψηλό,υψηλό
+male,group C,some college,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group C,some high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group D,some college,free/reduced,none,χαμηλό,μέτριο,μέτριο
+female,group C,high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,some high school,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+female,group C,some college,free/reduced,completed,μέτριο,μέτριο,μέτριο
+female,group B,bachelor's degree,free/reduced,none,μέτριο,υψηλό,υψηλό
+male,group C,some college,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,associate's degree,standard,completed,υψηλό,μέτριο,μέτριο
+female,group C,high school,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group D,associate's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,some college,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,associate's degree,standard,completed,μέτριο,υψηλό,υψηλό
+female,group D,high school,standard,completed,μέτριο,μέτριο,μέτριο
+female,group B,some college,standard,completed,χαμηλό,μέτριο,μέτριο
+female,group E,some college,standard,completed,μέτριο,μέτριο,μέτριο
+female,group C,some high school,standard,completed,μέτριο,υψηλό,μέτριο
+male,group D,associate's degree,free/reduced,none,υψηλό,μέτριο,μέτριο
+male,group D,some college,free/reduced,none,μέτριο,μέτριο,χαμηλό
+female,group D,high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group B,high school,standard,none,χαμηλό,μέτριο,χαμηλό
+male,group B,high school,standard,none,μέτριο,χαμηλό,χαμηλό
+female,group C,some high school,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+male,group B,some college,standard,completed,μέτριο,μέτριο,μέτριο
+female,group E,master's degree,standard,completed,υψηλό,υψηλό,υψηλό
+male,group E,some college,standard,completed,υψηλό,μέτριο,μέτριο
+male,group D,associate's degree,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group A,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group E,some college,free/reduced,none,υψηλό,υψηλό,υψηλό
+female,group C,associate's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group E,associate's degree,free/reduced,none,μέτριο,μέτριο,μέτριο
+female,group C,bachelor's degree,free/reduced,completed,μέτριο,μέτριο,υψηλό
+female,group D,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,some high school,standard,none,χαμηλό,μέτριο,χαμηλό
+female,group D,some college,free/reduced,none,μέτριο,υψηλό,υψηλό
+female,group C,associate's degree,standard,completed,μέτριο,υψηλό,υψηλό
+female,group A,bachelor's degree,standard,none,χαμηλό,μέτριο,μέτριο
+female,group D,associate's degree,standard,completed,χαμηλό,μέτριο,μέτριο
+male,group C,high school,free/reduced,none,μέτριο,μέτριο,χαμηλό
+female,group E,bachelor's degree,standard,completed,μέτριο,υψηλό,υψηλό
+female,group B,some high school,standard,none,χαμηλό,μέτριο,μέτριο
+male,group A,bachelor's degree,standard,completed,υψηλό,υψηλό,υψηλό
+female,group D,some college,standard,none,μέτριο,μέτριο,μέτριο
+female,group B,some high school,free/reduced,completed,χαμηλό,μέτριο,μέτριο
+male,group A,bachelor's degree,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group D,high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,some college,standard,none,μέτριο,χαμηλό,χαμηλό
+male,group D,high school,standard,none,υψηλό,υψηλό,μέτριο
+female,group D,associate's degree,free/reduced,completed,χαμηλό,μέτριο,χαμηλό
+male,group C,some college,standard,completed,υψηλό,υψηλό,υψηλό
+female,group E,some high school,standard,completed,μέτριο,υψηλό,υψηλό
+female,group D,some college,standard,none,υψηλό,υψηλό,υψηλό
+male,group D,master's degree,standard,none,υψηλό,υψηλό,υψηλό
+female,group B,some high school,standard,completed,χαμηλό,μέτριο,μέτριο
+female,group B,associate's degree,free/reduced,completed,μέτριο,υψηλό,υψηλό
+male,group C,associate's degree,standard,completed,μέτριο,μέτριο,μέτριο
+female,group C,associate's degree,standard,completed,υψηλό,υψηλό,υψηλό
+female,group C,high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group E,associate's degree,free/reduced,completed,υψηλό,μέτριο,μέτριο
+female,group C,some college,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group D,some high school,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+female,group B,some high school,free/reduced,completed,μέτριο,υψηλό,υψηλό
+male,group C,high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group B,some college,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group E,some college,standard,completed,υψηλό,μέτριο,μέτριο
+female,group E,associate's degree,standard,completed,μέτριο,μέτριο,μέτριο
+male,group E,some high school,standard,completed,μέτριο,χαμηλό,χαμηλό
+female,group D,high school,free/reduced,none,μέτριο,υψηλό,υψηλό
+male,group C,some college,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group B,associate's degree,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group A,some high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,some college,standard,completed,υψηλό,υψηλό,υψηλό
+male,group D,some high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group E,some college,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,master's degree,standard,none,μέτριο,χαμηλό,χαμηλό
+male,group C,associate's degree,standard,none,υψηλό,μέτριο,υψηλό
+female,group B,some college,free/reduced,completed,χαμηλό,μέτριο,μέτριο
+male,group D,associate's degree,standard,none,υψηλό,μέτριο,μέτριο
+male,group C,high school,free/reduced,none,μέτριο,χαμηλό,χαμηλό
+male,group D,bachelor's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group A,associate's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,high school,standard,none,υψηλό,υψηλό,υψηλό
+female,group C,associate's degree,standard,completed,χαμηλό,μέτριο,μέτριο
+male,group B,some college,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group D,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group C,some college,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,bachelor's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group B,some college,standard,completed,υψηλό,υψηλό,υψηλό
+male,group D,some high school,standard,completed,μέτριο,μέτριο,μέτριο
+male,group E,some college,standard,none,μέτριο,μέτριο,μέτριο
+male,group C,master's degree,free/reduced,completed,μέτριο,μέτριο,μέτριο
+female,group C,some high school,standard,completed,μέτριο,υψηλό,υψηλό
+male,group C,associate's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group E,associate's degree,standard,none,υψηλό,υψηλό,υψηλό
+male,group D,some college,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group E,bachelor's degree,free/reduced,completed,μέτριο,μέτριο,μέτριο
+female,group D,some college,free/reduced,completed,χαμηλό,χαμηλό,μέτριο
+male,group B,some college,standard,completed,μέτριο,μέτριο,μέτριο
+female,group C,high school,free/reduced,none,χαμηλό,μέτριο,μέτριο
+female,group D,some high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group D,some high school,standard,completed,μέτριο,υψηλό,υψηλό
+female,group B,high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group D,some college,standard,none,χαμηλό,μέτριο,χαμηλό
+female,group B,high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,high school,standard,completed,χαμηλό,μέτριο,μέτριο
+male,group B,high school,standard,completed,μέτριο,μέτριο,χαμηλό
+female,group D,some high school,standard,none,μέτριο,μέτριο,μέτριο
+male,group A,some college,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group B,high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group D,bachelor's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group B,some high school,free/reduced,completed,χαμηλό,μέτριο,μέτριο
+female,group C,bachelor's degree,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group B,some college,standard,none,μέτριο,μέτριο,χαμηλό
+female,group B,some high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group B,high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group C,some college,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group A,some college,standard,completed,μέτριο,μέτριο,υψηλό
+male,group E,associate's degree,standard,completed,υψηλό,υψηλό,υψηλό
+female,group D,associate's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group B,master's degree,standard,none,μέτριο,υψηλό,υψηλό
+female,group B,high school,free/reduced,completed,μέτριο,υψηλό,υψηλό
+female,group C,associate's degree,standard,completed,χαμηλό,χαμηλό,μέτριο
+male,group C,bachelor's degree,standard,completed,υψηλό,υψηλό,μέτριο
+female,group B,some high school,standard,completed,χαμηλό,χαμηλό,χαμηλό
+female,group E,some high school,free/reduced,none,μέτριο,μέτριο,μέτριο
+female,group B,some college,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,associate's degree,free/reduced,none,μέτριο,μέτριο,μέτριο
+female,group C,master's degree,free/reduced,none,χαμηλό,μέτριο,μέτριο
+female,group B,high school,standard,none,χαμηλό,μέτριο,χαμηλό
+female,group D,some college,free/reduced,none,χαμηλό,μέτριο,μέτριο
+male,group D,high school,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group E,some high school,standard,completed,υψηλό,υψηλό,μέτριο
+female,group B,high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group E,associate's degree,free/reduced,completed,χαμηλό,μέτριο,μέτριο
+male,group D,high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group E,associate's degree,free/reduced,none,μέτριο,υψηλό,υψηλό
+male,group E,some college,standard,none,μέτριο,χαμηλό,χαμηλό
+female,group C,associate's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,some high school,standard,completed,μέτριο,μέτριο,μέτριο
+male,group C,some high school,standard,completed,μέτριο,μέτριο,μέτριο
+female,group E,associate's degree,standard,none,υψηλό,υψηλό,υψηλό
+female,group B,some college,standard,none,υψηλό,υψηλό,υψηλό
+female,group C,some college,standard,none,μέτριο,μέτριο,μέτριο
+male,group A,some college,free/reduced,none,μέτριο,υψηλό,μέτριο
+female,group D,some college,free/reduced,none,μέτριο,μέτριο,μέτριο
+female,group E,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,high school,standard,none,υψηλό,μέτριο,μέτριο
+male,group B,bachelor's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group A,some high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group A,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,master's degree,standard,completed,χαμηλό,μέτριο,μέτριο
+male,group E,some high school,standard,completed,υψηλό,υψηλό,μέτριο
+female,group C,high school,standard,none,μέτριο,μέτριο,υψηλό
+male,group B,some high school,standard,completed,υψηλό,υψηλό,υψηλό
+female,group A,bachelor's degree,standard,none,χαμηλό,χαμηλό,μέτριο
+male,group D,bachelor's degree,free/reduced,completed,μέτριο,μέτριο,μέτριο
+female,group B,high school,free/reduced,none,χαμηλό,μέτριο,μέτριο
+female,group C,some high school,standard,none,μέτριο,υψηλό,υψηλό
+female,group A,some high school,standard,completed,υψηλό,υψηλό,υψηλό
+female,group D,bachelor's degree,free/reduced,none,μέτριο,υψηλό,υψηλό
+male,group E,some college,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+female,group B,high school,free/reduced,none,μέτριο,υψηλό,υψηλό
+female,group C,some high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,high school,standard,none,μέτριο,μέτριο,χαμηλό
+female,group C,associate's degree,free/reduced,completed,χαμηλό,μέτριο,μέτριο
+female,group C,some high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group D,some high school,free/reduced,completed,μέτριο,υψηλό,υψηλό
+male,group B,some high school,standard,none,μέτριο,χαμηλό,χαμηλό
+female,group A,some college,free/reduced,none,μέτριο,χαμηλό,χαμηλό
+female,group C,bachelor's degree,free/reduced,completed,μέτριο,υψηλό,υψηλό
+male,group A,bachelor's degree,standard,none,μέτριο,χαμηλό,χαμηλό
+female,group B,high school,standard,completed,μέτριο,υψηλό,υψηλό
+male,group B,some college,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,high school,standard,completed,χαμηλό,μέτριο,μέτριο
+male,group E,high school,standard,none,μέτριο,μέτριο,χαμηλό
+female,group A,high school,standard,completed,μέτριο,υψηλό,μέτριο
+male,group B,associate's degree,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+female,group C,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group D,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,some high school,standard,none,μέτριο,χαμηλό,χαμηλό
+female,group B,high school,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+male,group B,some college,free/reduced,completed,μέτριο,μέτριο,μέτριο
+female,group D,some high school,free/reduced,completed,χαμηλό,μέτριο,μέτριο
+male,group E,master's degree,standard,none,υψηλό,υψηλό,υψηλό
+male,group C,master's degree,standard,completed,υψηλό,υψηλό,υψηλό
+male,group D,high school,standard,none,μέτριο,χαμηλό,χαμηλό
+female,group C,high school,standard,none,χαμηλό,μέτριο,μέτριο
+male,group D,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group C,master's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group A,high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group E,some college,standard,none,υψηλό,υψηλό,υψηλό
+male,group E,some high school,standard,none,υψηλό,μέτριο,μέτριο
+male,group C,some high school,standard,none,μέτριο,μέτριο,χαμηλό
+female,group B,bachelor's degree,standard,none,υψηλό,υψηλό,υψηλό
+male,group B,some college,free/reduced,none,μέτριο,μέτριο,μέτριο
+female,group C,bachelor's degree,standard,none,μέτριο,μέτριο,υψηλό
+male,group B,high school,standard,completed,χαμηλό,χαμηλό,χαμηλό
+male,group C,associate's degree,free/reduced,none,υψηλό,μέτριο,μέτριο
+female,group C,associate's degree,standard,none,χαμηλό,μέτριο,χαμηλό
+female,group E,master's degree,free/reduced,none,υψηλό,υψηλό,υψηλό
+male,group D,bachelor's degree,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+female,group C,some college,standard,completed,μέτριο,μέτριο,μέτριο
+male,group C,associate's degree,standard,none,υψηλό,υψηλό,υψηλό
+male,group D,some college,standard,completed,υψηλό,υψηλό,υψηλό
+male,group C,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group B,associate's degree,standard,none,μέτριο,χαμηλό,χαμηλό
+male,group E,associate's degree,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group C,associate's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group B,high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,some college,standard,completed,μέτριο,μέτριο,μέτριο
+male,group B,associate's degree,standard,completed,υψηλό,υψηλό,μέτριο
+male,group E,associate's degree,free/reduced,none,υψηλό,υψηλό,υψηλό
+female,group C,bachelor's degree,free/reduced,none,χαμηλό,μέτριο,μέτριο
+male,group C,some college,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group D,some college,standard,none,υψηλό,υψηλό,υψηλό
+male,group C,some high school,standard,none,χαμηλό,μέτριο,χαμηλό
+female,group D,some high school,standard,none,χαμηλό,μέτριο,μέτριο
+female,group D,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+male,group C,bachelor's degree,standard,completed,μέτριο,μέτριο,μέτριο
+female,group E,bachelor's degree,standard,completed,μέτριο,μέτριο,μέτριο
+female,group B,high school,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group D,bachelor's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group E,associate's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,associate's degree,standard,completed,μέτριο,μέτριο,μέτριο
+female,group E,associate's degree,standard,completed,υψηλό,υψηλό,υψηλό
+male,group C,high school,free/reduced,none,χαμηλό,μέτριο,χαμηλό
+female,group D,some college,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group D,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group E,some college,standard,completed,υψηλό,υψηλό,υψηλό
+female,group E,associate's degree,standard,none,υψηλό,υψηλό,υψηλό
+female,group A,master's degree,free/reduced,none,χαμηλό,μέτριο,μέτριο
+male,group D,some high school,standard,completed,υψηλό,μέτριο,μέτριο
+female,group E,associate's degree,standard,none,χαμηλό,μέτριο,μέτριο
+female,group E,some high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group B,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group B,some high school,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group D,associate's degree,standard,completed,μέτριο,χαμηλό,μέτριο
+female,group D,some high school,standard,completed,μέτριο,μέτριο,υψηλό
+male,group D,master's degree,standard,none,υψηλό,υψηλό,υψηλό
+female,group C,master's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group A,high school,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+female,group D,bachelor's degree,free/reduced,completed,υψηλό,υψηλό,υψηλό
+female,group D,some high school,free/reduced,none,μέτριο,υψηλό,υψηλό
+male,group D,some college,standard,none,υψηλό,μέτριο,μέτριο
+male,group B,high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group D,some college,standard,completed,μέτριο,υψηλό,υψηλό
+female,group C,bachelor's degree,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group E,bachelor's degree,standard,completed,μέτριο,μέτριο,μέτριο
+male,group D,bachelor's degree,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group A,some college,standard,none,μέτριο,υψηλό,υψηλό
+female,group C,bachelor's degree,standard,completed,χαμηλό,μέτριο,μέτριο
+female,group C,bachelor's degree,free/reduced,completed,χαμηλό,μέτριο,μέτριο
+female,group B,associate's degree,free/reduced,none,χαμηλό,μέτριο,χαμηλό
+female,group E,some college,standard,none,μέτριο,μέτριο,μέτριο
+male,group E,bachelor's degree,standard,completed,υψηλό,υψηλό,υψηλό
+female,group C,high school,standard,none,χαμηλό,μέτριο,χαμηλό
+female,group C,associate's degree,standard,completed,χαμηλό,μέτριο,μέτριο
+male,group B,some college,standard,completed,υψηλό,υψηλό,υψηλό
+male,group D,high school,free/reduced,none,μέτριο,μέτριο,μέτριο
+female,group C,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group D,high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group B,associate's degree,free/reduced,none,χαμηλό,μέτριο,μέτριο
+male,group D,high school,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group E,some high school,standard,completed,μέτριο,μέτριο,χαμηλό
+male,group E,associate's degree,free/reduced,none,μέτριο,χαμηλό,χαμηλό
+female,group D,high school,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group E,associate's degree,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+female,group C,some high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group C,some college,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group D,some college,free/reduced,none,μέτριο,χαμηλό,μέτριο
+male,group D,associate's degree,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group C,bachelor's degree,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group C,associate's degree,standard,completed,υψηλό,υψηλό,υψηλό
+male,group D,some college,free/reduced,none,μέτριο,μέτριο,χαμηλό
+male,group A,associate's degree,standard,none,μέτριο,χαμηλό,χαμηλό
+female,group E,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group D,some college,standard,completed,υψηλό,υψηλό,υψηλό
+male,group D,some high school,standard,completed,μέτριο,μέτριο,μέτριο
+male,group C,master's degree,free/reduced,completed,μέτριο,μέτριο,μέτριο
+female,group D,master's degree,standard,none,μέτριο,υψηλό,υψηλό
+male,group C,high school,standard,none,υψηλό,μέτριο,μέτριο
+male,group A,some high school,free/reduced,completed,μέτριο,μέτριο,μέτριο
+female,group B,high school,standard,none,χαμηλό,μέτριο,μέτριο
+female,group C,associate's degree,standard,none,χαμηλό,μέτριο,χαμηλό
+male,group B,high school,standard,none,υψηλό,υψηλό,μέτριο
+female,group D,some college,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group B,some high school,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+female,group E,high school,free/reduced,completed,χαμηλό,μέτριο,μέτριο
+male,group E,high school,standard,none,υψηλό,μέτριο,μέτριο
+female,group D,some college,standard,completed,μέτριο,μέτριο,υψηλό
+female,group E,some high school,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group C,high school,standard,completed,χαμηλό,χαμηλό,χαμηλό
+female,group C,some college,standard,none,μέτριο,μέτριο,μέτριο
+male,group E,associate's degree,standard,none,μέτριο,χαμηλό,μέτριο
+male,group C,some college,standard,none,υψηλό,υψηλό,υψηλό
+female,group D,master's degree,standard,none,υψηλό,υψηλό,υψηλό
+female,group D,high school,standard,none,χαμηλό,μέτριο,χαμηλό
+male,group C,high school,standard,none,μέτριο,υψηλό,μέτριο
+female,group A,some college,standard,none,χαμηλό,χαμηλό,μέτριο
+female,group D,some high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group E,associate's degree,standard,none,υψηλό,υψηλό,υψηλό
+female,group C,some high school,free/reduced,completed,μέτριο,μέτριο,μέτριο
+male,group D,some college,standard,none,μέτριο,χαμηλό,χαμηλό
+female,group D,some college,standard,none,μέτριο,μέτριο,μέτριο
+male,group A,some high school,standard,completed,μέτριο,μέτριο,μέτριο
+male,group C,some college,standard,none,μέτριο,μέτριο,χαμηλό
+female,group E,associate's degree,standard,none,μέτριο,μέτριο,μέτριο
+female,group B,bachelor's degree,standard,none,μέτριο,υψηλό,μέτριο
+female,group D,bachelor's degree,standard,none,υψηλό,υψηλό,υψηλό
+male,group C,some high school,standard,completed,μέτριο,μέτριο,μέτριο
+female,group A,high school,free/reduced,completed,χαμηλό,χαμηλό,χαμηλό
+female,group D,some college,free/reduced,none,χαμηλό,μέτριο,μέτριο
+female,group A,some college,standard,none,χαμηλό,μέτριο,μέτριο
+female,group C,some college,standard,completed,μέτριο,υψηλό,μέτριο
+male,group B,some college,free/reduced,completed,χαμηλό,μέτριο,χαμηλό
+male,group C,associate's degree,standard,none,μέτριο,μέτριο,χαμηλό
+male,group D,high school,standard,completed,χαμηλό,χαμηλό,χαμηλό
+female,group C,associate's degree,standard,none,υψηλό,υψηλό,υψηλό
+female,group B,high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+male,group D,some high school,standard,none,υψηλό,μέτριο,μέτριο
+male,group B,some high school,standard,completed,μέτριο,υψηλό,υψηλό
+female,group A,some college,standard,completed,μέτριο,υψηλό,υψηλό
+female,group C,some high school,standard,none,μέτριο,μέτριο,υψηλό
+male,group A,high school,standard,none,χαμηλό,χαμηλό,χαμηλό
+female,group C,associate's degree,standard,none,χαμηλό,χαμηλό,χαμηλό
+male,group E,some high school,standard,completed,υψηλό,μέτριο,μέτριο
+female,group A,some high school,free/reduced,none,χαμηλό,χαμηλό,χαμηλό
+female,group D,some college,free/reduced,completed,μέτριο,υψηλό,υψηλό
+male,group E,high school,free/reduced,completed,υψηλό,υψηλό,μέτριο
+female,group B,some high school,standard,completed,μέτριο,υψηλό,μέτριο
+female,group D,associate's degree,free/reduced,none,χαμηλό,μέτριο,μέτριο
+female,group D,bachelor's degree,free/reduced,none,μέτριο,μέτριο,μέτριο
+male,group A,high school,standard,none,μέτριο,μέτριο,μέτριο
+female,group E,master's degree,standard,completed,υψηλό,υψηλό,υψηλό
+male,group C,high school,free/reduced,none,μέτριο,χαμηλό,χαμηλό
+female,group C,high school,free/reduced,completed,χαμηλό,μέτριο,μέτριο
+female,group D,some college,standard,completed,μέτριο,μέτριο,μέτριο
+female,group D,some college,free/reduced,none,μέτριο,υψηλό,υψηλό
