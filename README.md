@@ -449,3 +449,77 @@ df_apriori.to_csv("StudentsPerformance_categorical.csv", index=False)
 - `χαμηλό`: 0–60
 - `μέτριο`: 61–80
 - `υψηλό`: 81–100
+
+Μετά τη διακριτοποίηση των αριθμητικών γνωρισμάτων εφαρμόστηκε **One-Hot Encoding** ώστε όλα τα γνωρίσματα να μετατραπούν σε δυαδική μορφή. Η μετατροπή αυτή είναι απαραίτητη για την εφαρμογή του αλγορίθμου Apriori, καθώς ορίζεται ότι κάθε γραμμή του συνόλου δεδομένων πρέπει να αναπαρίσταται ως σύνολο κατηγορικών χαρακτηριστικών. 
+```python
+import pandas as pd
+
+df = pd.read_csv("StudentsPerformance_categorical.csv")
+
+df_encoded = pd.get_dummies(df)
+
+df_encoded.to_csv("StudentsPerformance_encoded.csv", index=False)
+
+print(df_encoded.head())
+```
+Κώδικα για τον αλγόριθμο Apriori που εξάγει σε csv όλους τους κανόνες με lift ≥ 1.0
+```python
+import pandas as pd
+from mlxtend.frequent_patterns import apriori, association_rules
+
+df = pd.read_csv("StudentsPerformance_encoded.csv")
+
+frequent_itemsets = apriori(df, min_support=0.05, use_colnames=True)
+
+rules = association_rules(frequent_itemsets, metric="lift", min_threshold=1.0)
+
+rules_sorted = rules.sort_values(by="lift", ascending=False)
+
+rules_sorted.to_csv("association_rules_apriori.csv", index=False)
+
+print("Οι κανόνες συσχέτισης αποθηκεύτηκαν στο αρχείο 'association_rules_apriori.csv'")
+```
+
+Μπορείτε να βρείτε όλους τους κανόνες στο αρχείο csv που δημιουργήθηκε. Ακολουθεί σχολιασμός των 10 κανόνων που βρήκα πιο ενδιαφέρον.
+- **Κανόνας 1**  
+    _IF_ `math_cat_υψηλό` & `gender_female` → _THEN_ `reading_cat_υψηλό`, `writing_cat_υψηλό`, `lunch_standard`  
+    **Lift**: 6.82 | **Confidence**: 0.87
+    Τα κορίτσια με υψηλή επίδοση στα μαθηματικά είναι πολύ πιθανό να έχουν επίσης υψηλές επιδόσεις στην ανάγνωση και το γράψιμο και να λαμβάνουν κανονικό γεύμα.
+- **Κανόνας 2**  
+    _IF_ `reading_cat_υψηλό`, `writing_cat_υψηλό`, `lunch_standard` → _THEN_ `math_cat_υψηλό`, `gender_female`  
+    **Lift**: 5.54 | **Confidence**: 0.89
+    Οι μαθήτριες που έχουν καλές επιδόσεις σε ανάγνωση και γραφή και τρώνε κανονικό γεύμα τείνουν να διαπρέπουν και στα μαθηματικά.
+- **Κανόνας 3**  
+    _IF_ `writing_cat_υψηλό`, `lunch_standard` → _THEN_ `math_cat_υψηλό`, `reading_cat_υψηλό`, `gender_female`  
+    **Lift**: 5.51 | **Confidence**: 0.91
+    Η επίδοση στο γράψιμο σε συνδυασμό με καλές διατροφικές συνθήκες συνδέεται με επιτυχία και στους άλλους δύο τομείς.
+- **Κανόνας 4**  
+    _IF_ `math_cat_υψηλό`, `gender_female` → _THEN_ `writing_cat_υψηλό`, `lunch_standard`  
+    **Lift**: 5.12 | **Confidence**: 0.87
+    Οι μαθήτριες που αριστεύουν στα μαθηματικά τείνουν να έχουν υψηλή γραπτή ικανότητα και πρόσβαση σε καλύτερη διατροφή.
+- **Κανόνας 5**  
+    _IF_ `math_cat_υψηλό` → _THEN_ `reading_cat_υψηλό`  
+    **Lift**: 3.25 | **Confidence**: 0.82
+    Η καλή μαθηματική επίδοση σχετίζεται σημαντικά με την καλή αναγνωστική ικανότητα.
+- **Κανόνας 6**  
+    _IF_ `reading_cat_υψηλό`, `writing_cat_υψηλό` → _THEN_ `math_cat_υψηλό`  
+    **Lift**: 3.07 | **Confidence**: 0.84
+    Αν κάποιος είναι καλός σε ανάγνωση και γραφή πιθανότατα είναι καλός και στα μαθηματικά.
+- **Κανόνας 7**  
+    _IF_ `test preparation course_completed`, `reading_cat_υψηλό` → _THEN_ `writing_cat_υψηλό`  
+    **Lift**: 2.78 | **Confidence**: 0.84
+    Η ολοκλήρωση του μαθήματος προετοιμασίας ενισχύει την απόδοση στο γράψιμο σε μαθητές με ήδη καλή αναγνωστική ικανότητα.
+- **Κανόνας 8**  
+    _IF_ `gender_female`, `writing_cat_υψηλό` → _THEN_ `reading_cat_υψηλό`  
+    **Lift**: 1.91 | **Confidence**: 0.98
+    Οι καλές γραπτές επιδόσεις των κοριτσιών συνοδεύονται από εξίσου καλές ικανότητες στην ανάγνωση.
+- **Κανόνας 9**  
+    _IF_ `reading_cat_υψηλό`, `gender_female`, `lunch_standard` → _THEN_ `math_cat_υψηλό`, `writing_cat_υψηλό`  
+    **Lift**: 4.59 | **Confidence**: 0.89
+    Συνδυασμός ανάγνωσης, φύλου και υποστήριξης προβλέπει επιτυχία σε όλα τα μαθήματα.
+- **Κανόνας 10**  
+    _IF_ `test preparation course_none`, `writing_cat_υψηλό` → _THEN_ `math_cat_υψηλό`, `gender_female`, `lunch_standard`  
+    **Lift**: 4.31 | **Confidence**: 0.82
+    Παρότι δεν έγινε προετοιμασία, η καλή επίδοση στο γράψιμο συσχετίζεται με υψηλές αποδόσεις και υποστηρικτικό περιβάλλον, ίσως υποδεικνύει μαθητές με φυσική ικανότητα ή εξωτερική βοήθεια.
+
+Οι περισσότεροι κανόνες επιβεβαιώνουν ότι η υψηλή επίδοση σε ένα γνωστικό τομέα συνδέεται θετικά με την επίδοση και στους υπόλοιπους, ιδιαίτερα για τις μαθήτριες. Επιπλέον, παρατηρείται ότι η διατροφική υποστήριξη και η συμμετοχή σε προγράμματα προετοιμασίας παίζουν ρόλο στην επιτυχία τους. 
