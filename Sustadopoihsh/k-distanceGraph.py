@@ -4,7 +4,7 @@ from sklearn.neighbors import NearestNeighbors
 import numpy as np
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("C:/Users/patatakis/Desktop/odep/StudentsPerformance.csv")
+df = pd.read_csv("/StudentsPerformance.csv")
 X = df[["math score", "reading score", "writing score"]]
 
 scaler = StandardScaler()
@@ -18,7 +18,6 @@ distances, indices = neighbors_fit.kneighbors(X_scaled)
 
 distances_sorted = np.sort(distances[:, k - 1])
 
-# 4. Δημιουργία γραφήματος
 plt.figure(figsize=(8, 5))
 plt.plot(distances_sorted, color="orange")
 plt.title("k-Distance Graph (k=4) για επιλογή eps στο DBSCAN")

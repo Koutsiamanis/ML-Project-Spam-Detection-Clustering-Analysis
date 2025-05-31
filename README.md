@@ -1,5 +1,29 @@
+## Πίνακας Περιεχομένων
+
+1. [[#Εισαγωγή]]
+2. [[#Μέρος Α - Κατηγοριοποίηση]]
+   2.1 [[#Επεξεργασία Δεδομένων]]  
+   2.2 [[#Decision tree]]
+   2.3 [[#kNN]]
+   2.4 [[#Naive Bayes]]
+   2.5 [[#Random forest]]
+   2.6 [Συμπέρασμα Κατηγοριοποίησης](#Συμπέρασμα)  
+3. [[#Μέρος Β - Συσταδοποίηση]]
+   3.1 [[#K-Means + Elbow Method]]
+   3.2 [[#Αgglomerative clustering και δενδρόγραμμα]]
+   3.3 [[#DBSCAN και k-distance graph]]
+   3.4 [[#Συμπέρασμα Συσταδοποίησης]]
+4. [[#Μέρος Γ - Εξαγωγή Κανόνων Συσχέτισης]]
+   4.1 [[#Διακριτοποίηση & One-Hot Encoding]]
+   4.2 [[#Αλγόριθμος Apriori]]
+   4.3 [[#Ανάλυση Κανόνων]]
+
+### Εισαγωγή
+Η παρούσα εργασία εστιάζει στην **ανάλυση και επεξεργασία δεδομένων μέσω αλγορίθμων μηχανικής μάθησης**, με σκοπό την κατηγοριοποίηση, συσταδοποίηση και εξαγωγή κανόνων συσχέτισης. Πραγματοποιούνται εφαρμογές σε δύο διαφορετικά σύνολα δεδομένων: ένα που αφορά την ταξινόμηση email σε spam ή μη, και ένα που περιλαμβάνει τις επιδόσεις μαθητών σε τρία βασικά μαθήματα. Μέσω της χρήσης δημοφιλών αλγορίθμων, όπως Decision Tree, k-NN, Naive Bayes, Random Forest, K-Means, Agglomerative Clustering και Apriori, επιχειρείται η ανάδειξη κρυφών μοτίβων και η εξαγωγή χρήσιμων συμπερασμάτων.
+
 ### Μέρος Α - Κατηγοριοποίηση
 
+#### Επεξεργασία Δεδομένων
 Αρχικά ξεκινάμε φορτώνοντας τα δεδομένα από το αρχείο spam.csv έτσι ώστε να τα προετοιμάσουμε.
 ```python
 df = pd.read_csv("spam.csv")
@@ -15,7 +39,7 @@ print("Μοναδικές τιμές της class:", df["class"].unique())
 df["class"] = df["class"].replace("emai", "email")
 ```
 
-Συνεχίζουμε μετανομάζοντας 2 στύλες για να ταιριάζουν με τα στοιχεία που μας έχουν δωθεί στην εκφώνηση της εργασίας
+Συνεχίζουμε μετονομαζοντας 2 στήλες για να ταιριάζουν με τα στοιχεία που μας έχουν δοθεί στην εκφώνηση της εργασίας
 ```python
 df.rename(columns={"cap_ave numeric": "cap_ave", "ooo": "000"}, inplace=True)
 ```
@@ -24,7 +48,7 @@ df.rename(columns={"cap_ave numeric": "cap_ave", "ooo": "000"}, inplace=True)
 df["class"] = df["class"].map({"email": 0, "spam": 1})
 ```
 
-Χωρίζουμε σε σε χαρακτηριστικά (X) και στόχο (y) και μετά σε training/ test set (80%-20%)
+Χωρίζουμε σε χαρακτηριστικά (X) και στόχο (y) και μετά σε training/ test set (80%-20%)
 ```python
 X = df.drop("class", axis=1)
 y = df["class"]
@@ -46,7 +70,7 @@ print(y.value_counts(normalize=True))
 `1    0.394045`
 αυτό σημαίνει ότι 60.6% των emails είναι κανονικά και 39.4% είναι spam. Αυτό δεν είναι σοβαρά ανισόρροπο. Η διαφορά είναι αποδεκτή και δεν χρειάζεται oversampling.
 
-#### Decision tree
+#### Decision tree 
 ```python
 tree_model = DecisionTreeClassifier(random_state=42)
 tree_model.fit(X_train, y_train)
@@ -77,7 +101,7 @@ print(report)
 | Spam (1)       | 0.86      | 0.83     | 0.85     | 363         |
 | **Μέσος Όρος** | **0.88**  | **0.88** | **0.88** | **921**     |
 
-#### kNN με k=5
+#### kNN
 ```python
 knn_model = KNeighborsClassifier(n_neighbors=5)
 knn_model.fit(X_train, y_train)  
@@ -94,7 +118,7 @@ print(conf_matrix_knn)
 print("\nClassification Report:")
 print(report_knn)
 ```
-Το μοντέλο πέτυχε ακρίβεια **90.12%**. Από τα 921 δείγματα στο test set, ταξινομήθηκαν σωστά τα 527 από τα 558 email και τα 303 από τα 363 spam. Οι επιμέρους μετρικές (F1-score, precision, recall) ήταν ισορροπημένες και δείχνουν ότι ο αλγόριθμος αποδίδει σταθερά και στις δύο κατηγορίες, με ιδιαίτερη ικανότητα στην αναγνώριση κανονικών email (recall = 0.94).x
+Το μοντέλο πέτυχε ακρίβεια **90.12%**. Από τα 921 δείγματα στο test set, ταξινομήθηκαν σωστά τα 527 από τα 558 email και τα 303 από τα 363 spam. Οι επιμέρους μετρικές (F1-score, precision, recall) ήταν ισορροπημένες και δείχνουν ότι ο αλγόριθμος αποδίδει σταθερά και στις δύο κατηγορίες, με ιδιαίτερη ικανότητα στην αναγνώριση κανονικών email (recall = 0.94).
 
 |                          | Προβλέφθηκε Email (0)      | Προβλέφθηκε Spam (1)       |
 | ------------------------ | -------------------------- | -------------------------- |
@@ -166,7 +190,6 @@ print(report_rf)
 | **Μέσος Όρος** | **0.89**  | **0.89** | **0.89** | **921**     |
 #### Συμπέρασμα
 Στο πλαίσιο της  ταξινόμησης μηνυμάτων σε κανονικά email και spam εφαρμόστηκαν οι αλγόριθμοι: Decision Tree, kNN (k=5), Naive Bayes και Random Forest. Τα αποτελέσματα έδειξαν ότι ο kNN είχε τη μεγαλύτερη ακρίβεια (90.12%), με εξαιρετικό precision στην αναγνώριση spam. Ο Random Forest παρουσίασε σταθερότητα και αξιοπιστία με το μεγαλύτερο recall για spam και πολύ καλό F1-score (0.87), υποδεικνύοντας ότι γενικεύει αποτελεσματικά χωρίς υπερεκπαίδευση. Ο Naive Bayes αν και ταχύτερος και πιο απλός, είχε ελαφρώς χαμηλότερες επιδόσεις. Ο Decision Tree παρουσίασε τη χαμηλότερη σχετική απόδοση.
-![[1.png]]
 
 | Model         | Accuracy | Precision (Spam) | Recall (Spam) | F1-score (Spam) |
 | ------------- | -------- | ---------------- | ------------- | --------------- |
@@ -208,7 +231,7 @@ plt.xticks(k_values)
 plt.grid(True)
 plt.show()
 ```
-Χρησιμοποιώντας τον παραπάνω κώδικα με την βιβλιοθήκη Matplotlib δημιουργούμαι το παρακάτω διάγραμμα.
+Χρησιμοποιώντας τον παραπάνω κώδικα με την βιβλιοθήκη Matplotlib δημιουργούμε το παρακάτω διάγραμμα.
 ![[elbow-method.png]]
 Όπως παρατηρούμε το "elbow" δημιουργείται στο k=3 οπότε συνεχίζουμε με το K-means.
 ```python
@@ -217,14 +240,13 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 
-df = pd.read_csv("C:/Users/patatakis/Desktop/odep/StudentsPerformance.csv")
+df = pd.read_csv("/StudentsPerformance.csv")
 
 X = df[["math score", "reading score", "writing score"]]
 
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
 
-KMeans clustering με k=3
 kmeans = KMeans(n_clusters=3, random_state=42, n_init=10)
 kmeans.fit(X_scaled)
 
@@ -246,8 +268,6 @@ plt.show()
 ```
 Για την εφαρμογή του αλγορίθμου K-Means, έγινε αρχικά κανονικοποίηση των αριθμητικών γνωρισμάτων `math score`, `reading score` και `writing score` με χρήση του `StandardScaler.` Ο αλγόριθμος εκπαιδεύτηκε με:
 - `n_clusters = 3` (σύμφωνα με το elbow)
-- `random_state = 42` για επαναληψιμότητα
-- `n_init = 10` για μεγαλύτερη σταθερότητα στα αποτελέσματα
 
 | Cluster | Math Score | Reading Score | Writing Score |
 |---------|-------------|----------------|----------------|
@@ -341,7 +361,7 @@ for cluster_id, count in cluster_counts.items():
 Η κατανομή των μαθητών στον χώρο επιβεβαιώθηκε μέσω **3D απεικόνισης**, με άξονες `math score`, `reading score`, και `writing score`. Το γράφημα έδειξε ξεκάθαρα τρεις ομαδοποιημένες περιοχές, οι οποίες αντιστοιχούν σε διαφορετικά επίπεδα επίδοσης.
 ![[Agglomerative Clustering3d.png]]
 #### DBSCAN και k-distance graph
-Ξεκινάμε δημιουργόντας το γράφημα k-distance.
+Ξεκινάμε δημιουργώντας το γράφημα k-distance.
 ```python
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
@@ -349,7 +369,7 @@ from sklearn.neighbors import NearestNeighbors
 import numpy as np
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("StudentsPerformance.csv")
+df = pd.read_csv("/StudentsPerformance.csv")
 X = df[["math score", "reading score", "writing score"]]
 
 scaler = StandardScaler()
@@ -379,13 +399,13 @@ from sklearn.cluster import DBSCAN
 import matplotlib.pyplot as plt
   
 
-df = pd.read_csv("C:/Users/patatakis/Desktop/odep/StudentsPerformance.csv")
+df = pd.read_csv("/StudentsPerformance.csv")
 X = df[["math score", "reading score", "writing score"]]
 
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
 
-dbscan = DBSCAN(eps=0.4, min_samples=5)
+dbscan = DBSCAN(eps=0.4)
 labels = dbscan.fit_predict(X_scaled)
 
 df["dbscan_cluster"] = labels
@@ -423,10 +443,12 @@ plt.show()
 | –1 (Θόρυβος) | **24** μαθητές  |
 Ο DBSCAN δεν εντόπισε πολλαπλές συστάδες, αλλά σχημάτισε μόνο μία κύρια ομάδα και 24 σημεία ως θόρυβο. Από αυτό καταλαβαίνουμε ότι οι επιδόσεις των μαθητών δεν παρουσιάζουν φυσικούς διαχωρισμούς βάσει πυκνότητας. Συνεπώς, ο DBSCAN δεν είναι η κατάλληλη μέθοδος για την ανάδειξη νοηματικών συστάδων στην παρούσα περίπτωση, σε αντίθεση με το K-Means και το Agglomerative Clustering, τα οποία παρήγαγαν πιο ερμηνεύσιμα αποτελέσματα.![[dbscan.png]]
 
-#### Συμπέρασμα
+#### Συμπέρασμα Συσταδοποίησης
 Οι αλγόριθμοι KMeans και Agglomerative Clustering ήταν οι  κατάλληλοι για την ανάλυση του συγκεκριμένου συνόλου δεδομένων καθώς παρήγαγαν ξεκάθαρες και ερμηνεύσιμες συστάδες επιδόσεων μαθητών. Αντίθετα, ο DBSCAN δεν εντόπισε περισσότερες από μία ομάδες, φανερώνοντας ότι οι βαθμολογίες δεν παρουσιάζουν φυσικούς διαχωρισμούς σε πυκνότητα. Η σύγκριση των αποτελεσμάτων προσέφερε μια σφαιρική εικόνα της δομής των δεδομένων και υπογράμμισε την σημασία της επιλογής του κατάλληλου αλγορίθμου ανάλογα με τα χαρακτηριστικά του dataset.
 
 ### Μέρος Γ - Εξαγωγή Κανόνων Συσχέτισης
+
+#### Διακριτοποίηση & One-Hot Encoding
 Δεδομένου ότι ο αλγόριθμος Apriori απαιτεί κατηγορικά γνωρίσματα, έγινε διακριτοποίηση των αριθμητικών μεταβλητών `math score`, `reading score`, και `writing score`με το παρακάτω κώδικα:
 ```python
 import pandas as pd
@@ -462,7 +484,9 @@ df_encoded.to_csv("StudentsPerformance_encoded.csv", index=False)
 
 print(df_encoded.head())
 ```
-Κώδικα για τον αλγόριθμο Apriori που εξάγει σε csv όλους τους κανόνες με lift ≥ 1.0
+
+#### Αλγόριθμος Apriori
+Κώδικας για τον αλγόριθμο Apriori που εξάγει σε csv όλους τους κανόνες με lift ≥ 1.0
 ```python
 import pandas as pd
 from mlxtend.frequent_patterns import apriori, association_rules
@@ -480,6 +504,7 @@ rules_sorted.to_csv("association_rules_apriori.csv", index=False)
 print("Οι κανόνες συσχέτισης αποθηκεύτηκαν στο αρχείο 'association_rules_apriori.csv'")
 ```
 
+#### Ανάλυση Κανόνων
 Μπορείτε να βρείτε όλους τους κανόνες στο αρχείο csv που δημιουργήθηκε. Ακολουθεί σχολιασμός των 10 κανόνων που βρήκα πιο ενδιαφέρον.
 - **Κανόνας 1**  
     _IF_ `math_cat_υψηλό` & `gender_female` → _THEN_ `reading_cat_υψηλό`, `writing_cat_υψηλό`, `lunch_standard`  

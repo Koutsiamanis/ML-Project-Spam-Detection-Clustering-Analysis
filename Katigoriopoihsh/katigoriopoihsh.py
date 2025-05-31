@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from sklearn.naive_bayes import GaussianNB
 
-df = pd.read_csv("C:/Users/patatakis/Desktop/odep/spam.csv")
+df = pd.read_csv("/spam.csv")
 
 print("Μοναδικές τιμές της class:", df["class"].unique())
 
@@ -18,7 +18,7 @@ df.rename(columns={
 }, inplace=True)
 
 df["class"] = df["class"].map({"email": 0, "spam": 1})
-df.to_csv("C:/Users/patatakis/Desktop/odep/cleaned_spam.csv", index=False)
+df.to_csv("/cleaned_spam.csv", index=False)
 
 X = df.drop("class", axis=1)
 y = df["class"]
